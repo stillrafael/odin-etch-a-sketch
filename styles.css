@@ -3,15 +3,24 @@ div {
 }
 
 .container {
-    height: 500px;
-    width: 500px;
+    height: 512px;
+    width: 512px;
     flex-wrap: wrap;
-    margin: 5px;
     background-color: black;
 }
 
+
+
 .grid {
-    margin: 2px;
     flex: 1 1 auto;
-    border: 1px solid white;
+    height: 128px;
+    width: 128px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
 }
